@@ -1,0 +1,343 @@
+.contencontain {
+    height: 90%;
+    width: 100%;
+    background-color: #EFF6FF;
+    font-family: 'Roboto';
+  }
+  .title{
+    margin-left: 5%;
+    font-size:20px;
+
+}
+.score{
+    margin-left: 5%;
+    font-size:20px;
+}
+.subtitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contencontain>.rectangle {
+     top: 5%;
+     height:40% ;
+     width: 60%;
+     margin-left: 95px;
+     margin-right: 95px;
+     border:  0px solid #006FCB;
+     justify-content: space-between;
+     font-size: 24px;
+     display: flex;
+    flex-direction: row;
+}
+.contencontain >.contsection1{
+    height: 20%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+
+}
+.span{
+    font-size: 24px;
+    font-weight: 100px;
+    margin-left: 10px;
+    text-align: left;
+}
+.contencontain>.contsection1>.snapshot{
+   height:10%;
+   widows: 100%;
+   text-align: left;
+   margin-left: 40px;
+   background-color: #FFFFFF;
+   display :flex;
+   flex-direction: row;
+
+}
+.contencontain>.contsection1>.snapshot>.rect1{
+    height: 50px ;
+    width: 50px;
+    border:  2px solid #006FCB;
+}
+.contencontain>.contsection1>.snapshot>.rect1>.img{
+    height:20px;
+    width: 20px;
+}
+.contencontain>.contsection1>.myapp{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+
+
+ }
+ .contencontain>.contsection1>.appliedjobs{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+ }
+ .contencontain>.contsection1>.myapp>.rect2{
+    height: 50px ;
+    width: 50px;
+    border:  2px solid #006FCB;
+}
+.contencontain>.contsection1>.shortlisted{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.contencontain>.contsection1>.Interviewing{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+.contencontain>.contsection1>.rejected{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+.contencontain>.contsection1>.offerrecived{
+    height:10%;
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+
+.contencontain>.contsection1>.myapplication{
+    height:10%;
+    width: 100%;
+    text-align: left;
+    margin-left: 40px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+
+ }
+.contencontain>.section2{
+    height:10%;
+    width: 100%;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: 006FCB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.contencontain>.section2>.searchbox {
+    margin-top: 2%;
+    width:85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:10px;
+    padding :10px;
+  }
+  .contencontain>.section2>.searchbox>input {
+    height:60%;
+    width:70%;
+    border-radius: 1px;
+    outline: none;
+    border:  2px solid #006FCB;
+    padding :10px;
+}
+
+.contencontain>.section2>.searchbox> button {
+    cursor: pointer;
+    width:15%;
+    height:60%;
+    background-color:  #006FCB;
+    color: white;
+    padding :10px;
+    font-size: 15px;
+  }
+  .contencontain>.section3>{
+    height:10%;
+    width: 100%;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 15px;
+    background-color: #006FCB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .contencontain>.section3>.dropdown{
+    padding: 10px;
+    height:15%;
+    width:50%;
+    color: #006FCB;
+    margin-left: 15%;
+    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+.contencontain>.section4{
+    height:40%;
+    width: 100%;
+    text-align: left;
+    background-color: #FFFFFF;
+ }
+.contencontain>.section4>.jobbox{
+    width:100%;
+    height:30%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.contencontain>.section4>.jobbox>.jpctitle{
+    width:100%;
+    height:30%;
+    margin-left: 5%;
+    color:#006FCB;
+    font-size:24px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contencontain>.section4>.jobbox>.btn1 {
+    width:100%;
+    height:60%;
+    background-color:  #006FCB;
+    color: white;
+    padding :10px;
+    font-size: 15px;
+    border-radius: 15px;
+
+
+}
+.contencontain>.section4>.joblocation{
+    padding: 5px;
+    height: 5%;
+    width: 40%;
+    margin-left: 15%;
+    font-size: 10px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.contencontain>.section4>.paratext{
+    padding-top: 2px;
+    height: 5%;
+    width: 75%;
+    margin-left: 12%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.contencontain>.section5{
+    height:40%;
+    width: 100%;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+.contencontain>.section4>.jobbox1{
+    width:100%;
+    height:30%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .contencontain>.section5>.jobbox1>.jpctitle1{
+        width:100%;
+        height:30%;
+        margin-left: 8%;
+        color:#006FCB;
+        font-size:24px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+.contencontain>.section5>.jobbox1>.btn2 {
+    width:100%;
+    height:60%;
+    background-color:  #006FCB;
+    color: white;
+    padding :10px;
+    font-size: 15px;
+
+
+}
+.contencontain>.section5>.joblocation1{
+    padding: 5px;
+    height: 5%;
+    width: 40%;
+    margin-left: 15%;
+    font-size: 10px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contencontain>.section5>.paratext1{
+    padding-top: 2px;
+    height: 5%;
+    width: 75%;
+    margin-left: 12%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.button4 {border-radius: 30px;}
+
+.buttoncolor
+{
+    font-size: 15px;
+    color:blue;
+    border-radius: 20px;
+    width: 60px;
+}
+
+.whiterectanglebox {
+    margin-top: auto;
+    background: white;
+    font-size: 24px;
+    padding:10px;
+    
+
+}
+
+
+.imgicon {
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+

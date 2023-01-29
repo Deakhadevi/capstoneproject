@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: Border-Box;
+}
+
+body {
+    background-color: #EFF6FF;
+    font-family: Arial;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding: 2%;
+    text-align: left;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.nobull {
+    list-style-type: none;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 10%;
+}
+
+input {
+    width: 25%;
+    height: 20%;
+    display: inline-block;
+
+}
+
+select {
+    width: 25%;
+}
+
+option {
+    width: 35%;
+}
+.btn1{
+    cursor: pointer;
+    width:15%;
+    height:60%;
+    background-color:  #006FCB;
+    color: white;
+    padding :10px;
+    font-size: 15px;
+}
