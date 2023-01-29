@@ -1,6 +1,7 @@
 # capstoneproject
 Jobportal management Project
 This Project has created Ruby on Rails. Our front end is React js and back end is Ruby on Rails. Database Postgressql(AWS).
+But in Git hub we have mentioned as JobFrontend . Reason we are not able to upload the file due to some unknown reason. 
 Creating React Project
 Create a folder jobportal .If you have already created no need to create again
 Suppose not created , create now
